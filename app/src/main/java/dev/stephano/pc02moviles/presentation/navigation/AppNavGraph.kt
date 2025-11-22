@@ -1,33 +1,28 @@
 package dev.stephano.pc02moviles.presentation.navigation
 
-import androidx.compose.runtime.Composable
-
 import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.core.app.NotificationCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import dev.lchang.appue.presentation.apifootball.ApiFootballScreen
-import dev.lchang.appue.presentation.auth.LoginScreen
-import dev.lchang.appue.presentation.auth.RegisterScreen
-import dev.lchang.appue.presentation.home.HomeScreen
-import dev.lchang.appue.presentation.permissions.GalleryPermissionsScreen
+import dev.stephano.pc02moviles.presentation.register.RegistroScreen
+import dev.stephano.pc02moviles.presentation.listado.ListadoScreen
 
-@Composable
+@androidx.compose.runtime.Composable
 fun AppNavGraph(){
 
     val navController = rememberNavController()
 
     NavHost(navController = navController,
-        startDestination = "login"){
+        startDestination = "register"){
 
-        composable("register") { RegisterScreen(navController) }
-        composable ("login") { LoginScreen(navController) }
+        composable("register") { RegistroScreen(navController) }
+        composable ("login") { Text("Login placeholder") }
+
+        composable ("listado") { ListadoScreen(navController) }
 
         composable ("home") {
             DrawerScaffold(navController) {
-                HomeScreen()
+                Text("Home placeholder")
             }
         }
 
