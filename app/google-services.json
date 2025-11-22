@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "290020479145",
+    "project_id": "srivadeneyra-firebase-2025",
+    "storage_bucket": "srivadeneyra-firebase-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290020479145:android:95f6c21b99d764f6d119b8",
+        "android_client_info": {
+          "package_name": "dev.lchang.appue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuwaQlQahwwYYnskn_blB-W1GhJsbYON0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290020479145:android:3a975373e734473cd119b8",
+        "android_client_info": {
+          "package_name": "dev.stephano.pc02moviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuwaQlQahwwYYnskn_blB-W1GhJsbYON0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
